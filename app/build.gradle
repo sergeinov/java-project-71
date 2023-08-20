@@ -19,7 +19,7 @@ repositories {
 }
 
 compileJava {
-    options.release = 17
+    options.release = 20
 }
 
 run {
@@ -30,6 +30,7 @@ run {
 dependencies {
     testImplementation platform('org.junit:junit-bom:5.10.0-M1')
     testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'info.picocli:picocli:4.7.4'
 }
 
 test {

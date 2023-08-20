@@ -1,4 +1,6 @@
 # Makefile
+.DEFAULT_GOAL := build-run
+
 build:
 	./gradlew installDist
 run:
@@ -13,3 +15,7 @@ update-deps:
 	./gradlew useLatestVersions
 clean:
 	./gradlew clean
+
+build-run: build run
+
+.PHONY: build
