@@ -2,7 +2,10 @@
 [![Actions Status](https://github.com/sergeinov/java-project-71/workflows/hexlet-check/badge.svg)](https://github.com/sergeinov/java-project-71/actions)
 
 ### CodeClimate Maintainability:
-[![Maintainability](https://api.codeclimate.com/v1/badges/73c4165ac9de71fa93f0/maintainability)](https://codeclimate.com/github/sergeinov/java-project71/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/8bda04939d49c6823e8f/maintainability)](https://codeclimate.com/github/sergeinov/java-project-71/maintainability)
+
+### Test Coverage:
+[![Test Coverage](https://api.codeclimate.com/v1/badges/8bda04939d49c6823e8f/test_coverage)](https://codeclimate.com/github/sergeinov/java-project-71/test_coverage)
 
 ---
 
