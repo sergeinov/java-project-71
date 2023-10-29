@@ -35,7 +35,7 @@
     ./build/install/app/bin/app -f json file1.json file2.json
 
 ### Пример работы
-https://asciinema.org/a/bBWn4RlvcsDFN8FTI5WhfrpI6
+https://asciinema.org/a/2phZLop8dWyWJ80o4O0aDzJ3q
 
 ### Setup
 ```sh
