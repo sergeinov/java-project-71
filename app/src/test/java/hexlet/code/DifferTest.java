@@ -33,10 +33,14 @@ public class DifferTest {
 
     @Test
     public void differTestWithFormat() throws Exception {
-        assertThat(Differ.generate(filepathJson1.toString(), filepathJson2.toString(), "stylish")).isEqualTo(resultStylishFormat);
-        assertThat(Differ.generate(filepathYaml1.toString(), filepathYaml2.toString(), "stylish")).isEqualTo(resultStylishFormat);
-        assertThat(Differ.generate(filepathJson1.toString(), filepathJson2.toString(), "plain")).isEqualTo(resultPlainFormat);
-        assertThat(Differ.generate(filepathYaml1.toString(), filepathYaml2.toString(), "plain")).isEqualTo(resultPlainFormat);
+        assertThat(Differ.generate(filepathJson1.toString(), filepathJson2.toString(), "stylish"))
+                .isEqualTo(resultStylishFormat);
+        assertThat(Differ.generate(filepathYaml1.toString(), filepathYaml2.toString(), "stylish"))
+                .isEqualTo(resultStylishFormat);
+        assertThat(Differ.generate(filepathJson1.toString(), filepathJson2.toString(), "plain"))
+                .isEqualTo(resultPlainFormat);
+        assertThat(Differ.generate(filepathYaml1.toString(), filepathYaml2.toString(), "plain"))
+                .isEqualTo(resultPlainFormat);
 
         assertJsonEquals(Differ.generate(filepathJson1.toString(), filepathJson2.toString(), "json"), resultJsonFormat);
         assertJsonEquals(Differ.generate(filepathYaml1.toString(), filepathYaml2.toString(), "json"), resultJsonFormat);
