@@ -7,6 +7,10 @@ import java.util.Map;
 
 public class Parser {
     public static Map<String, Object> parse(String fileContent, String fileExtension) throws Exception {
+        if (fileExtension.isEmpty()) {
+            throw new Exception("File extension is empty!");
+        }
+
         if (fileExtension.equals("json")) {
             return parseJson(fileContent);
         } else if (fileExtension.equals("yaml") || fileExtension.equals("yml")) {
